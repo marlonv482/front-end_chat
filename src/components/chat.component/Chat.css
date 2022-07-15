@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.CardHeaderChat {
+    background-color: #ff7200;
+    color: black;
+    width: 350px;
+   
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    height: 50px;
+}
+.settings {
+    width: 30px; 
+ 
+   
+    cursor: pointer;
+   
+    
+    padding-top: 15px;
+    padding-left: 5px;
+}
+.UserNameChat{
+    flex-grow: 0.8;
+    padding-top: 1px;
+    font-size: 11px;
+    width: 305px;
+    display: flex;
+    margin: 0.5rem;
+}
+.CardBodyChat {
+    
+    background-color: white;
+    width: 350px;
+    height: 500px;
+    background-image: url("../../assets/logo1.jpg");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    overflow : auto;
+    
+}
+
+.CardFooterChat {
+    background-color: white;
+    top: 0.5rem;
+    width: 350px;
+    height: 50px;
+    display: flex;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;   
+
+}
+span.chatStatus.online {
+    color: #3dd7a5;
+  }
+   
+  span.chatStatus.offline {
+    color: #ef4444;
+  }
+.InputSearchChat {
+    width: 300px;
+    height: 30px;
+    left: 0.5rem;
+    top: 5px;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    margin: 5px;
+}
+
+.SentIcon {
+    width: 20px;
+    margin: 10px;
+    cursor: pointer;
+   
+}
+
+.msg-imgChat {
+    width: 30px;
+    height: 30px;
+  
+    flex-direction: row-reverse;
+    background: #ddd;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    
+}

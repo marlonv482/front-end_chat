@@ -1,15 +1,28 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
+<div > 
+<img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <BarraChat/>
+
+  
+
+
+
+
+
+ </div>
+ 
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-
+import BarraChat from './components/barrarChat.component/BarraChat.vue'
+  
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    BarraChat
   }
 }
 </script>
@@ -22,5 +35,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+ 
+}
+.root{
+   background-color: black;
 }
 </style>

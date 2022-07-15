@@ -1,0 +1,31 @@
+.user-img {
+    width: 35px;
+    height: 35px;
+    margin: 3px;
+    flex-direction: row-reverse;
+    background: #ddd;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    border-color: black;
+}
+.user-info{
+    text-align: left;
+    margin-top: 2px;
+}
+.user-name{
+    font-weight: 500;
+    font-size: 16px;
+    font-weight: 500;
+}
+.user-rol{
+    color: grey;
+   font-size: 13px;
+}
+.conten-user{
+    background-color: #ddd;
+    margin: 3px;
+    display: flex;
+    border-radius: 5px;
+}
